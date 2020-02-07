@@ -1,0 +1,45 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    background: url("../img/back.jpg") no-repeat;
+    background-size: cover;
+}
+iframe {
+    width: 100%;
+    min-height: 700px;
+    max-height: 1200px;
+}
+
+.navbar {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #6f42c1;
+}
+.color-head {
+    background-color: darkorange;
+    color: black;
+    opacity: 0.8;
+}
+
+@media (max-width: 469px) {
+    .hidden-info-mobile {
+        display: none;
+    }
+    .color-head {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1500px) {
+    iframe {
+        min-height: 900px;
+    }
+}
+@media (max-height: 1500px) {
+    iframe {
+        min-height: 890px;
+    }
+}

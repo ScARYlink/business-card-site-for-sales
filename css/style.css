@@ -1,0 +1,246 @@
+/*=====developed by ScARYlink=======*/
+
+/*====MAIN======*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/back-yugtorg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.header-style {
+    background-color: rgba(255, 255, 255, .8)!important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/*====HEADER======*/
+
+.header-style {
+    background-color: rgba(255, 255, 255, .8)!important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.head-div {
+    padding: 0;
+    display: flex;
+}
+.head-schedule, .head-car {
+    padding: 1vh 0 0 0;
+}
+
+.car {
+    flex-basis: 20vh;
+}
+
+.img-phone {
+    width: 17px;
+}
+
+.yugtorg {
+    font-size: 3vh;
+    cursor: pointer;
+}
+.yugtorg span:nth-child(1) {
+    color: #00a7e9;
+    text-shadow: 1px 1px white,
+    2px 2px #777;
+    transition: all 1s;
+}
+.yugtorg span:nth-child(2) {
+    color: #00a7e9;
+    text-shadow: 1px 1px white,
+    2px 2px #777;
+    transition: all 1s;
+}
+.yugtorg span:nth-child(3) {
+    color: black;
+    text-shadow: 1px 1px white,
+    2px 2px #777;
+    transition: all 1s;
+}
+.yugtorg span:nth-child(4) {
+    color: black;
+    text-shadow: 1px 1px white,
+    2px 2px #777;
+    transition: all 1s;
+}
+.yugtorg span:nth-child(5) {
+    color: black;
+    text-shadow: 1px 1px white,
+    2px 2px #777;
+    transition: all 1s;
+}
+.yugtorg span:nth-child(6) {
+    color: black;
+    text-shadow: 1px 1px white,
+    2px 2px #777;
+    transition: all 1s;
+}
+
+.yugtorg span:last-child {
+    color: black;
+    text-shadow: 1px 1px white,
+    1px 1px #777;
+    transition: all 1s;
+}
+
+
+.yugtorg span:hover, .yugtorg strong:hover {
+    text-shadow: 1px 1px white,
+    2px 2px grey;
+    color: black;
+}
+
+/*====MENU======*/
+.block-info {
+
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+    font-size: 2vh;
+}
+
+.block-info{
+
+
+    padding: 5px 15px;
+    width: 95%;
+}
+.wrap-block-info, .wrap-menu-info {
+    background-color: #71dd8a;
+    width: 100%;
+    padding: 10px 20px!important;
+    margin-left: 1%!important;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgba(30,144,255,.85);
+
+}
+
+
+
+
+
+.box {
+    font-size: 2vh;
+
+}
+.box ul {
+    display: block;
+    margin: 0 10px;
+    padding: 3px;
+    list-style: none;
+
+}
+.head-menu {
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: rgba(209,238,238,1);
+    color: black;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+.head-menu span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+.submenu li a {
+    display: block;
+    padding: 5px;
+    color: #002752;
+    text-shadow: 1px 1px 3px rgba(9,128,174,.4);
+    background-color: rgba(209,238,238,.7);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.5vh;
+}
+.submenu li a:hover {
+    background-color: white;
+}
+
+.box span:hover {
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.save-doc {
+    background: url("/img/263096.png");
+}
+
+.desc-block-1 ul {
+    padding-left: 30px;
+}
+.desc-block-3 a, .manager-info a {
+    color: white;
+}
+.wrap-manager-info {
+    /*background-color: rgba(211, 158, 0, .95);*/
+    background-color: rgba(240, 189, 60, .87);
+    border-radius: 3px;
+    padding: 5px 10px 5px;
+}
+.desc-block-3 a:hover, .manager-info a:hover {
+    color: black;
+}
+.desc-block-3 span, .manager-info span {
+    color: #000;
+}
+
+
+/*====FOOTER======*/
+.footer-main-page {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4vmax;
+    opacity: .7;
+    padding: 15px 0 0 15px;
+}
+
+
+
+/*========MEDIA==========*/
+/*
+@media (max-width: 469px) {
+    .hidden-info-mobile {
+        display: none;
+    }
+    ul.submenu {
+        left: 160px;
+        margin-top: -70px;
+    }
+    .font-info-mobile>h6 {
+        font-size: 3vh;
+        padding-left: 23px;
+    }
+    .img-fluid {
+        max-width: 110px !important;
+        margin-left: -25px;
+    }
+    ul .submenu > li {
+        display: none;
+    }
+    ul li, .b2b {
+        min-width: 220px;
+    }
+}
+@media (min-width: 470px) {
+    ul li, .b2b {
+        min-width: 320px;
+    }
+    ul.submenu {
+        left: 330px;
+    }
+} */
